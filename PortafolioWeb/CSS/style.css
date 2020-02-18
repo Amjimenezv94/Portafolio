@@ -1,0 +1,165 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* se coloca usualmente estos valores para recetear los valores por defecto*/
+    margin: 0 auto; 
+    }
+
+.header{
+    border: 2px solid purple;
+}
+
+.header__menu{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu ul{
+    display: flex;
+}
+
+.header__menu li{
+    /*¨liststyle:none*/
+    display: inherit; 
+}
+
+.header__menu a{
+    text-decoration: none;
+    color: black;
+    /* ayuda a separar*/
+    padding: 10px; 
+    /* le da grosor a la letra */
+    font-weight: 700; 
+    text-transform: uppercase;
+}
+.header__menu a:hover{ 
+    /* cuando pasa el cursor por encima se resaltará */              
+    background-color: gray;
+    color:white;
+    border-radius: 10px;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.banner{
+    color: white;
+    background-color: black;
+}
+
+.banner .banner__hero{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+.banner__text-hero{
+    padding: 80px 0 0 80px;
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+}
+
+.img__perfil{
+
+    border-radius: 50%;
+    margin: 8px;
+
+}
+
+.portafolio{
+    display: flex;
+    /*coloando solo dos numeros el algoritmo lo toma como dos ejes (arriba-abajo  y derecha-izquierda*/
+    margin: 100px 0;
+}
+
+.portafolio__box{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 2px grey;
+    border-radius: 10px;
+    width: 33%;
+    
+}
+.portafolio__box img{
+    border-radius: 10px;
+}
+
+.portafolio__card{
+    margin: 20px;
+    padding: 5px;
+}
+
+.portafolio__card  button{
+    background-color: black;
+    color:white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1 px 4px 1px gray;
+    align-content: space-between;
+       
+}
+.portafolio__card  button:hover{
+    background-color: grey;
+    color:black;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1 px 4px 1px gray;
+}
+.titule{
+    border-left: 6px solid black;
+    background-color: rgba(216, 75, 75, 0.075);
+}
+
+.experience {
+    display:flex;
+    margin: 100px 0;
+}
+
+.experience__box{
+    margin: 15px;
+    box-shadow:  0px 1px 8px 2px gray;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+}
+
+.experience__body{
+    box-shadow: 0px -10px 10px 2px #80808059;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.footer{
+    color: white;
+    background-color: rgba(44, 41, 41, 0.459)
+}
+
+.footer .footer__section{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer__section i{
+   padding: 10px; 
+   }
+
+.footer__icons{
+    justify-content: center;
+}
+.copyright p{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: 0;
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+
